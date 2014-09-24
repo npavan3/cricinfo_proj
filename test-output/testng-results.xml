@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Video Not Available for usa]]>
+    </line>
+    <line>
+      <![CDATA[Shop link should navigate to :http://shop.espncricinfo.com/<br>]]>
+    </line>
+    <line>
+      <![CDATA[Shop link navigated to :http://shop.espncricinfo.com/<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass::Navigated to Shop Link]]>
+    </line>
+    <line>
+      <![CDATA[No.of Results:1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to correct link]]>
+    </line>
+    <line>
+      <![CDATA[Available Poll options<br>]]>
+    </line>
+    <line>
+      <![CDATA[Yes, the tournament has novelty<br>]]>
+    </line>
+    <line>
+      <![CDATA[No, it's a mis-matched event favouring some sides<br>]]>
+    </line>
+    <line>
+      <![CDATA[Will watch only games involving teams from my country<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Option Selected- : Yes, the tournament has novelty<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Poll Results<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Yes, the tournament has novelty<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[32.21%<br>]]>
+    </line>
+    <line>
+      <![CDATA[27623<br>]]>
+    </line>
+    <line>
+      <![CDATA[No, it's a mis-matched event favouring some sides<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[36.47%<br>]]>
+    </line>
+    <line>
+      <![CDATA[31273<br>]]>
+    </line>
+    <line>
+      <![CDATA[Will watch only games involving teams from my country<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[31.32%<br>]]>
+    </line>
+    <line>
+      <![CDATA[26864<br>]]>
+    </line>
+    <line>
+      <![CDATA[Total votes:<br>]]>
+    </line>
+    <line>
+      <![CDATA[85760<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="160959" started-at="2014-09-22T06:00:33Z" finished-at="2014-09-22T06:03:14Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="160959" started-at="2014-09-22T06:00:33Z" finished-at="2014-09-22T06:03:14Z">
+      <class name="com.espn.cricinfo.Poll">
+        <test-method status="PASS" signature="beforepoll()[pri:0, instance:com.espn.cricinfo.Poll@c55164]" name="beforepoll" is-config="true" duration-ms="8363" started-at="2014-09-22T11:32:46Z" finished-at="2014-09-22T11:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforepoll -->
+        <test-method status="PASS" signature="poll()[pri:0, instance:com.espn.cricinfo.Poll@c55164]" name="poll" duration-ms="19450" started-at="2014-09-22T11:32:54Z" finished-at="2014-09-22T11:33:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Available Poll options<br>]]>
+            </line>
+            <line>
+              <![CDATA[Yes, the tournament has novelty<br>]]>
+            </line>
+            <line>
+              <![CDATA[No, it's a mis-matched event favouring some sides<br>]]>
+            </line>
+            <line>
+              <![CDATA[Will watch only games involving teams from my country<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Option Selected- : Yes, the tournament has novelty<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Poll Results<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Yes, the tournament has novelty<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[32.21%<br>]]>
+            </line>
+            <line>
+              <![CDATA[27623<br>]]>
+            </line>
+            <line>
+              <![CDATA[No, it's a mis-matched event favouring some sides<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[36.47%<br>]]>
+            </line>
+            <line>
+              <![CDATA[31273<br>]]>
+            </line>
+            <line>
+              <![CDATA[Will watch only games involving teams from my country<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[31.32%<br>]]>
+            </line>
+            <line>
+              <![CDATA[26864<br>]]>
+            </line>
+            <line>
+              <![CDATA[Total votes:<br>]]>
+            </line>
+            <line>
+              <![CDATA[85760<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- poll -->
+      </class> <!-- com.espn.cricinfo.Poll -->
+      <class name="com.espn.cricinfo.Shop">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.espn.cricinfo.Shop@9ddfa3]" name="beforesuite" is-config="true" duration-ms="153" started-at="2014-09-22T11:30:33Z" finished-at="2014-09-22T11:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforeshoplink()[pri:0, instance:com.espn.cricinfo.Shop@9ddfa3]" name="beforeshoplink" is-config="true" duration-ms="7541" started-at="2014-09-22T11:30:59Z" finished-at="2014-09-22T11:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeshoplink -->
+        <test-method status="PASS" signature="shoplink()[pri:0, instance:com.espn.cricinfo.Shop@9ddfa3]" name="shoplink" duration-ms="65509" started-at="2014-09-22T11:31:06Z" finished-at="2014-09-22T11:32:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Shop link should navigate to :http://shop.espncricinfo.com/<br>]]>
+            </line>
+            <line>
+              <![CDATA[Shop link navigated to :http://shop.espncricinfo.com/<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass::Navigated to Shop Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shoplink -->
+      </class> <!-- com.espn.cricinfo.Shop -->
+      <class name="com.espn.cricinfo.cricinfo">
+        <test-method status="PASS" signature="beforeresults()[pri:0, instance:com.espn.cricinfo.cricinfo@6286e3]" name="beforeresults" is-config="true" duration-ms="7679" started-at="2014-09-22T11:32:12Z" finished-at="2014-09-22T11:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeresults -->
+        <test-method status="PASS" signature="results()[pri:0, instance:com.espn.cricinfo.cricinfo@6286e3]" name="results" duration-ms="26472" started-at="2014-09-22T11:32:19Z" finished-at="2014-09-22T11:32:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[No.of Results:1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to correct link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- results -->
+      </class> <!-- com.espn.cricinfo.cricinfo -->
+      <class name="com.espn.cricinfo.Usa_video">
+        <test-method status="PASS" signature="beforevideo()[pri:0, instance:com.espn.cricinfo.Usa_video@1048099]" name="beforevideo" is-config="true" duration-ms="10234" started-at="2014-09-22T11:30:33Z" finished-at="2014-09-22T11:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforevideo -->
+        <test-method status="PASS" signature="Video()[pri:0, instance:com.espn.cricinfo.Usa_video@1048099]" name="Video" duration-ms="15702" started-at="2014-09-22T11:30:43Z" finished-at="2014-09-22T11:30:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Video Not Available for usa]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Video -->
+      </class> <!-- com.espn.cricinfo.Usa_video -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

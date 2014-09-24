@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.espn.cricinfo.cricinfo">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="results"/>
+          <include name="beforeresults"/>
+        </methods>
+      </class> <!-- com.espn.cricinfo.cricinfo -->
+      <class name="com.espn.cricinfo.Shop">
+        <methods>
+          <include name="beforeshoplink"/>
+          <include name="shoplink"/>
+        </methods>
+      </class> <!-- com.espn.cricinfo.Shop -->
+      <class name="com.espn.cricinfo.Poll">
+        <methods>
+          <include name="beforepoll"/>
+          <include name="poll"/>
+        </methods>
+      </class> <!-- com.espn.cricinfo.Poll -->
+      <class name="com.espn.cricinfo.Usa_video">
+        <methods>
+          <include name="Video"/>
+          <include name="beforevideo"/>
+        </methods>
+      </class> <!-- com.espn.cricinfo.Usa_video -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
